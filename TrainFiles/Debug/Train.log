@@ -1,0 +1,72 @@
+﻿Build started 9/12/2015 4:47:29 PM.
+     1>Project "E:\_USB\csci3260\TrainFiles\Train.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../WinFltk/include /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Utilities\bitmap.c
+         bitmap.c
+     1>e:\_usb\csci3260\utilities\bitmap.c(94): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\_usb\csci3260\utilities\bitmap.c(126): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\_usb\csci3260\utilities\bitmap.c(221): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\_usb\csci3260\utilities\bitmap.c(231): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\_usb\csci3260\utilities\bitmap.c(401): warning C4133: '=' : incompatible types - from 'char [13]' to 'LPCWSTR'
+     1>e:\_usb\csci3260\utilities\bitmap.c(480): warning C4101: 'temp' : unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../WinFltk/include /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CallBacks.cpp Car.cpp ControlPoint.cpp Train.cpp TrainView.cpp TrainWindow.cpp Tree.cpp World.cpp ..\Utilities\3DUtils.cpp ..\Utilities\ArcBallCam.cpp ..\Utilities\Pnt3f.cpp
+         Pnt3f.cpp
+         ArcBallCam.cpp
+         3DUtils.cpp
+         World.cpp
+         Tree.cpp
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(13): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(14): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(19): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(22): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(31): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\tree.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         TrainWindow.cpp
+         TrainView.cpp
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(292): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(312): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(316): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(324): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(328): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(333): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(410): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(437): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(463): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(466): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(604): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(655): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(735): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(782): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(918): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>e:\_usb\csci3260\trainfiles\trainview.cpp(927): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Train.cpp
+         ControlPoint.cpp
+         Car.cpp
+     1>e:\_usb\csci3260\trainfiles\car.cpp(15): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\_usb\csci3260\trainfiles\car.cpp(18): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>e:\_usb\csci3260\trainfiles\car.cpp(19): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         CallBacks.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\_USB\csci3260\TrainFiles\Debug\Train.exe" /INCREMENTAL /NOLOGO /LIBPATH:../WinFltk/lib comctl32.lib wsock32.lib opengl32.lib glu32.lib fltkgld.lib fltkd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\_USB\csci3260\TrainFiles\Debug\Train.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\_USB\csci3260\TrainFiles\Debug\Train.lib" /MACHINE:X86 /SAFESEH Debug\bitmap.obj
+         Debug\CallBacks.obj
+         Debug\Car.obj
+         Debug\ControlPoint.obj
+         Debug\Train.obj
+         Debug\TrainView.obj
+         Debug\TrainWindow.obj
+         Debug\Tree.obj
+         Debug\World.obj
+         Debug\3DUtils.obj
+         Debug\ArcBallCam.obj
+         Debug\Pnt3f.obj
+         LINK : E:\_USB\csci3260\TrainFiles\Debug\Train.exe not found or not built by the last incremental link; performing full link
+     1>bitmap.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Train.vcxproj -> E:\_USB\csci3260\TrainFiles\Debug\Train.exe
+     1>Done Building Project "E:\_USB\csci3260\TrainFiles\Train.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:01.23
